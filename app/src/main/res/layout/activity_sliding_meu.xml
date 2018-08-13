@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_user_logo"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF333333"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_certification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:id="@+id/linear_certification"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:background="#FDF9EC"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="应国家监管要求，购买理财需实名认证。"
+                android:textColor="#F9B849"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_marginTop="15dp"
+            android:divider="#FF00ff"
+            android:dividerHeight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+            <ImageView
+                android:id="@+id/iv_llz"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentBottom="true"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
